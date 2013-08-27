@@ -1,7 +1,7 @@
 <?php
 /*
 	Plugin Name: CopyPasta for DMS
-	Plugin URI: http://slipperysource.com/
+	Plugin URI: http://slipperysource.com/downloads/copypasta-for-pagelines-dms/
 	Description: Copy section options from one template to another with this handy plugin for Pagelines DMS
 	Version: 1.0
 	Author: William Mincy
