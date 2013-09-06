@@ -90,7 +90,7 @@
 		border-left: none !important;
 		margin-left: 0 !important;
 	}
-	#copyPastaCopy span { border-left: none !important; padding-left: 6px !important; padding-right: 12px !important; }
+	#copyPastaCopy span { border-left: none !important; padding-left: 0px !important; padding-right: 12px !important; }
 	#copyPastaCopy span span, #copyPastaPaste span span {
 		width: 7px;
 		height: 23px;
@@ -98,7 +98,7 @@
 		display: inline-block;
 		font-size: 17px;
 	}
-	#copyPastaPaste span { padding-left: 6px !important; padding-right: 12px !important; }
+	#copyPastaPaste span { padding-left: 0px !important; padding-right: 12px !important; }
 	.copyPastaPopoverText {
 		line-height: 13px; 
 		font-size: 12px;
