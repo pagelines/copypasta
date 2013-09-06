@@ -104,4 +104,5 @@
 		font-size: 12px;
 		font-weight: normal;
 	}
+	#PageLinesToolbox.pl-toolbox .toolbox-handle ul.controls > li > .btn-toolbox { padding: 0 10px !important; }
 </style>
