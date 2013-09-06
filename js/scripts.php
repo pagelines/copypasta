@@ -5,6 +5,7 @@
 	}
 	$copyPastaDirectory = $dirname[sizeOf($dirname)-2];
 ?>
+
 <script src="<?php echo plugins_url().'/'.$copyPastaDirectory; ?>/js/jquery.cookie.js"></script>
 <script>
 	/* <![CDATA[ */
@@ -85,6 +86,7 @@
 	});
 	/* ]]> */
 </script>
+
 <style>
 	#copyPasta {
 		border-left: none !important;
