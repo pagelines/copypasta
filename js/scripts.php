@@ -9,7 +9,8 @@
 <script>
 	/* <![CDATA[ */
 	jQuery(document).ready(function(e) {
-		$cp_copied = JSON.parse(jQuery.cookie('copyPasta_copied'));
+		$cp_copied = [];
+		try { JSON.parse(jQuery.cookie('copyPasta_copied')); } catch(e) { }
 		// new instance of the container 
 		jQuery('div.toolbox-handle')
 			.first()
