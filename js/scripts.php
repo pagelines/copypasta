@@ -106,5 +106,7 @@
 		font-size: 12px;
 		font-weight: normal;
 	}
+	/** PL overrides to keep everything on one row in the toolbar **/
 	#PageLinesToolbox.pl-toolbox .toolbox-handle ul.controls > li > .btn-toolbox { padding: 0 9px !important; }
+	#PageLinesToolbox.pl-toolbox .toolbox-handle ul.controls { margin-left: 1px !important; }
 </style>
