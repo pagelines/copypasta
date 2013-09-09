@@ -110,4 +110,5 @@
 	#PageLinesToolbox.pl-toolbox .toolbox-handle { white-space: nowrap !important; }
 	#PageLinesToolbox.pl-toolbox .toolbox-handle ul.controls > li > .btn-toolbox { padding: 0 9px !important; white-space: nowrap !important; }
 	#PageLinesToolbox.pl-toolbox .toolbox-handle ul.controls { margin-left: 1px !important; white-space: nowrap !important; }
+	#PageLinesToolbox.pl-toolbox .toolbox-handle ul.controls > li > .btn-toolbox.btn-closer, #PageLinesToolbox.pl-toolbox .toolbox-handle ul.controls > li > .btn-toolbox.btn-pl-toggle { padding-left: 13px !important; }
 </style>
