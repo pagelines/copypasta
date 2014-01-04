@@ -61,7 +61,7 @@
 						if($data[1]=='text'||$data[1]=='hidden'||$data[1]=='checkbox') {
 							$data[1] = 'input';
 						}
-						$targ = jQuery( $data[1]+'[name="'+$clone_id+'['+$data[0]+']"]' );
+						$targ = jQuery( $data[1]+'[name="'+$clone_id+'['+$data[0]+']"], '+$data[1]+'[id="'+$data[0]+'"]' );
 						if($targ.length>0) {
 							$targ.attr('value',$data[2]);
 							$validtarg = $targ;
